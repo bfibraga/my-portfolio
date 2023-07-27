@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.8c7ccf91.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.ae97f45c.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.278f98ed.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.0719bd3d.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.a4d6fcb2.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.e6f5742b.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <h1 data-svelte-h="svelte-quyocm">My portfolio</h1> <p data-svelte-h="svelte-1yhx2pd">My name is <strong>Bruno Braga</strong> and I&#39;m a computer science student in FCT UNL</p> 
+			
+			<script>
+				{
+					__sveltekit_htlek4 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.8c7ccf91.js"),
+						import("./_app/immutable/entry/app.278f98ed.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
