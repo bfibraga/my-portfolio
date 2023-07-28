@@ -1,2 +1,28 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Section from '$components/Section.svelte';
+
+    import { onMount } from 'svelte';
+
+
+</script>
+
+<Section>
+    <h1>Content</h1>
+</Section>
+
+<Section>
+    <h1>Content</h1>
+</Section>
+<Section>
+    <h1>Content</h1>
+</Section>
+<Section>
+    <h1>Content</h1>
+</Section>
+<Section>
+    <h1>Content</h1>
+</Section>
+<Section>
+    <h1>Content</h1>
+</Section>
+
